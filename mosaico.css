@@ -1,0 +1,22 @@
+/* Establece la imagen de fondo como un mosaico de ositos de gominola */
+body {
+    background-image: url('https://www.artstar.com/cdn/shop/products/Hillegas_Gummy_Bears_GREEN-TEAL_webready_2048x2048.jpg?v=1607633420'); /* Ruta a tu imagen de gummybear */
+    background-repeat: repeat; /* Repite la imagen en todas las direcciones */
+    background-size: 50px; /* Tamaño de la imagen en píxeles */
+    background-color: #000; /* Color de fondo de respaldo */
+    color: #000; /* Color de texto */
+}
+@keyframes movimiento {
+    /* Define la animación de movimiento horizontal */
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+body {
+    /* Aplica la animación de movimiento */
+    animation: movimiento 60s linear infinite; /* Ajusta la duración y otros parámetros según sea necesario */
+}

@@ -1,0 +1,63 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Letras negras */
+    font-size: 38px; /* Tamaño de letra grande */
+    font-weight: bold; /* Fuente en negrita */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Tipo de letra redondeado e infantil */
+    text-align: center; /* Texto centrado */
+    color: #000000; /* Color del texto */
+    text-shadow: 1px 1px 3px #FFFFFF;
+}
+
+.navbar-nav a {
+    display: block;
+    margin-bottom: 10px; /* Ajusta el tamaño del margen según sea necesario */
+}
+
+
+/* Estilos para el menú de navegación */
+.navbar-nav .nav-link {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Tipo de letra redondeado e infantil */
+    color: #000; /* Color del texto */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 0; /* Espaciado entre secciones */
+}
+
+/* Estilos para los títulos */
+h2 {
+    font-size: 66px; /* Tamaño de letra grande */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 30px; /* Espaciado inferior */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 700%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Para centrar la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-height: 400px; /* Altura máxima para mantener una correlación de tamaño */
+.small-image {
+    max-width: 10px; /* Define el ancho máximo deseado */
+    height: auto; /* Mantiene la proporción */
+}
+
+
+/* Estilos para el contenedor de información de contacto */
+.contact-info {
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+
+
